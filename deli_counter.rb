@@ -7,7 +7,6 @@ def line(katz_deli)
       this_line << "#{number + 1}. #{person}"
     end 
       the_line = this_line.join
-      puts "The line is currently: #{the_line}" 
-    end 
+      puts "The line is currently: #{the_line}"
   end 
 end 
